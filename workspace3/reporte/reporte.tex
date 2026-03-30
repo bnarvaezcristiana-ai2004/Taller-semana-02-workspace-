@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\geometry{margin=2.5cm}
+
+\definecolor{codebg}{RGB}{245,247,250}
+
+\lstset{
+    backgroundcolor=\color{codebg},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single
+}
+
+\title{Reporte Taller 02.3\\Vectorización con NumPy}
+\author{Tu Nombre}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+
+Este reporte presenta los resultados del análisis de humedad de una finca durante 365 días en 100 zonas diferentes, utilizando operaciones vectorizadas con NumPy.
+
+\section{Metodología}
+
+Se procesó una matriz de dimensiones $365 \times 100$ que representa mediciones diarias de humedad del suelo en porcentaje. Las operaciones realizadas fueron:
+
+\begin{itemize}
+    \item Detección de zonas en sequía (humedad < 30\%)
+    \item Aplicación automática de riego
+    \item Clasificación espacial de zonas
+\end{itemize}
+
+\section{Resultados}
+
+\subsection{Benchmark de Rendimiento}
+
+% TODO: Completa con los resultados de benchmark.py
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lc}
+\toprule
+Método & Tiempo (s) \\
+\midrule
+Loop Python & [COMPLETAR] \\
+NumPy vectorizado & [COMPLETAR] \\
+\textbf{Speedup} & [COMPLETAR]x \\
+\bottomrule
+\end{tabular}
+\caption{Comparación de rendimiento}
+\end{table}
+
+\subsection{Detección de Sequía}
+
+% TODO: Completa con los resultados de vectorizacion.py
+
+\begin{itemize}
+    \item Celdas en sequía: [COMPLETAR]
+    \item Porcentaje del área: [COMPLETAR]\%
+\end{itemize}
+
+\subsection{Clasificación de Zonas}
+
+% TODO: Completa con los resultados de clasificar_zonas()
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcc}
+\toprule
+Clasificación & Celdas & Porcentaje \\
+\midrule
+SEQUIA & [COMPLETAR] & [COMPLETAR]\% \\
+NORMAL & [COMPLETAR] & [COMPLETAR]\% \\
+EXCESO & [COMPLETAR] & [COMPLETAR]\% \\
+\bottomrule
+\end{tabular}
+\caption{Distribución de zonas por humedad}
+\end{table}
+
+\section{Conclusiones}
+
+La vectorización con NumPy demostró ser significativamente más eficiente que el procesamiento con bucles Python, logrando un speedup de [COMPLETAR]x. Este enfoque es fundamental para el procesamiento de grandes volúmenes de datos agrícolas.
+
+\end{document}

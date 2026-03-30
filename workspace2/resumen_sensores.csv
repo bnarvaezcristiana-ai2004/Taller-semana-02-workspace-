@@ -1,0 +1,6 @@
+sensor_id,zona,cultivo,temp_promedio,temp_maxima,temp_minima,humedad_promedio,humedad_maxima,humedad_minima,horas_luz
+S001,Norte,Desconocido,24.15,34.8,15.1,51.58,78.0,22.3,156
+S002,Sur,Desconocido,23.89,35.0,15.1,52.04,77.8,23.1,156
+S003,Este,Desconocido,23.9,35.0,15.0,52.38,78.3,22.3,156
+S004,Oeste,Desconocido,24.08,35.0,15.0,51.78,75.9,20.7,156
+S005,Centro,Desconocido,24.03,34.9,15.1,51.97,79.0,22.1,156
