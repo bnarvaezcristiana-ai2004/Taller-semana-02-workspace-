@@ -1,6 +1,6 @@
 # Taller Semana 2.2 — Análisis de Sensores IoT
 
-## 🎯 Qué vas a hacer (en 15 segundos)
+## Qué vas a hacer (en 15 segundos)
 
 Vas a procesar **1440 lecturas** de 5 sensores agrícolas (24 horas de datos) para:
 
@@ -11,7 +11,7 @@ Vas a procesar **1440 lecturas** de 5 sensores agrícolas (24 horas de datos) pa
 
 ---
 
-## 📂 Dónde vas a trabajar
+## Dónde vas a trabajar
 
 Todo el trabajo se realiza en esta carpeta:
 
@@ -24,7 +24,7 @@ Archivos clave:
 
 ---
 
-## 📝 Pasos (hazlos en orden)
+## Pasos (hazlos en orden)
 
 ### 1. Preparación
 
@@ -93,7 +93,7 @@ git push
 
 ---
 
-## ✅ Criterios de Éxito (DoD)
+## Criterios de Éxito (DoD)
 
 * [ ] `check_02.py` pasa sin errores (4/4 pruebas).
 * [ ] Se genera el archivo `resumen_sensores.csv` con 5 filas (una por sensor).
@@ -101,7 +101,7 @@ git push
 * [ ] Tu código está subido al repositorio.
 
 
-## 💡 Tips para no atascarse
+## Tips para no atascarse
 
 * **KeyError:** Verifica que estés usando las claves exactas del CSV: `sensor_id`, `temperatura_c`, `humedad_pct`, `luz_lux`.
 * **TypeError:** El CSV lee todo como texto. ¡Usa `float()` antes de sumar o comparar!
