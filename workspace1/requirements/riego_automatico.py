@@ -15,11 +15,11 @@ parcelas.csv contiene las siguientes columnas:
 - humedad_suelo_pct: porcentaje de humedad del suelo (0-100)
 - ph: nivel de pH del suelo (4.5-8.0)
 
-REGLAS DE NEGOCIO:
+REGLAS:
 1. RIEGO: humedad < 40% → necesita riego
 2. DRENAJE: humedad > 75% → necesita drenaje
-3. pH BAJO: ph < 5.5 → necesita cal (encalado)
-4. pH ALTO: ph > 7.5 → necesita azufre
+3. pH BAJO: ph < 5.5 → necesita cal
+4. pH ALTO: ph > 7.5 → necesita azufre 
 5. TEMPERATURA CRÍTICA: temp > 30°C → alerta de estrés térmico
 
 TAREAS A COMPLETAR:
@@ -42,8 +42,16 @@ def evaluar_riego(humedad):
     Returns:
         str: Recomendación ("RIEGO URGENTE", "DRENAJE", "ÓPTIMO")
     """
-    # TODO: Completa esta función según las reglas de negocio
-    # Pista 1: Usa if/elif/else para verificar los rangos
+    # TODO: Completa esta función según las reglas
+
+    # Pista 1: Usa if/elif/else para verificar los rangos:
+    # if (condición 1):
+    # Se ejecuta SI la condición 1 es VERDADERA
+    # elif (condición 2):
+    # Se ejecuta SI la condición 1 es FALSA y la 2 es VERDADERA
+    # else:
+    # Se ejecuta SI NINGUNA condición anterior fue VERDADERA
+
     # Pista 2: Ejemplo de estructura:
     #   if humedad < 40:
     #       return "RIEGO URGENTE"
