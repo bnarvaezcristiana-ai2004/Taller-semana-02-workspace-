@@ -134,7 +134,7 @@ def benchmark():
     # Calcular speedup
     if tiempo_numpy > 0:
         speedup = tiempo_loops / tiempo_numpy
-        print(f"\n🚀 SPEEDUP: {speedup:.2f}x más rápido con NumPy")
+        print(f"\n SPEEDUP: {speedup:.2f}x más rápido con NumPy")
     
     return {
         'tiempo_loops': tiempo_loops,
@@ -164,10 +164,10 @@ def main():
     # Máscaras booleanas
     print("\n[3/4] Analizando humedad crítica...")
     criticos = detectar_humedad_critica(datos)
-    print(f"  📊 Lecturas totales: {criticos['total_lecturas']}")
-    print(f"  💧 Zonas secas (<30%): {criticos['zonas_secas']}")
-    print(f"  ✅ Zonas óptimas (30-80%): {criticos['zonas_optimas']}")
-    print(f"  🌊 Zonas húmedas (>80%): {criticos['zonas_humedas']}")
+    print(f"  Lecturas totales: {criticos['total_lecturas']}")
+    print(f"  Zonas secas (<30%): {criticos['zonas_secas']}")
+    print(f"  Zonas óptimas (30-80%): {criticos['zonas_optimas']}")
+    print(f"  Zonas húmedas (>80%): {criticos['zonas_humedas']}")
     
     # Clasificación con np.where
     print("\n[4/4] Clasificando zonas con np.where...")
