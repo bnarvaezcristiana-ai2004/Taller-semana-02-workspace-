@@ -9,6 +9,13 @@ Vas a comparar el rendimiento de Python nativo vs NumPy para:
 3. Aplicar máscaras booleanas y np.where
 4. Generar tu primer reporte en LaTeX
 
+| # | Tarea | ¿Qué haces tú? |
+|---|-------|---------------|
+| 1 | 🔢 Procesar matriz de humedad | Cargas 36,500 datos (365 días × 100 zonas) y calculas promedios, máximos, mínimos |
+| 2 | ⏱️ Medir speedup con benchmark | Comparas tiempo de Python normal vs NumPy y calculas cuántas veces más rápido es |
+| 3 | 🎭 Aplicar máscaras y np.where | Filtras zonas secas (<30%) y clasificas cada zona como SECO/ÓPTIMO/HÚMEDO |
+| 4 | 📄 Generar reporte en LaTeX | Llenas una plantilla con tus resultados y la conviertes a PDF profesional |
+
 ## Dónde vas a trabajar
 
 `talleres_semana_02/workspace3/`
